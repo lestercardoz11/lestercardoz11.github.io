@@ -1,0 +1,229 @@
+.grid {
+  pointer-events: none;
+  position: absolute;
+  width: 100vmax;
+  height: 100vmin;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (2%)[25];
+      grid-template-columns: repeat(25, 2%);
+  -ms-grid-rows: (2%)[25];
+      grid-template-rows: repeat(25, 2%);
+}
+
+.gridItem {
+  position: relative;
+}
+
+.gridImg {
+  position: relative;
+  width: 5vmin;
+  height: 5vmin;
+  background-size: cover;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .gridImg {
+    -webkit-animation: img-spin infinite 30s linear;
+            animation: img-spin infinite 30s linear;
+  }
+}
+
+@-webkit-keyframes img-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes img-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.img-1 {
+  background-image: url(bg-img/circle.png);
+}
+
+.img-2 {
+  background-image: url(bg-img/rhomboid.png);
+}
+
+.img-3 {
+  background-image: url(bg-img/triangle.png);
+}
+
+.img-4 {
+  background-image: url(bg-img/cross.png);
+}
+
+.pos-1 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 20;
+  grid-area: 2 / 20;
+}
+
+.pos-2 {
+  -ms-grid-row: 18;
+  -ms-grid-column: 2;
+  grid-area: 18 / 2;
+}
+
+.pos-3 {
+  -ms-grid-row: 45;
+  -ms-grid-column: 8;
+  grid-area: 45 / 8;
+}
+
+.pos-4 {
+  -ms-grid-row: 10;
+  -ms-grid-column: 12;
+  grid-area: 10 / 12;
+}
+
+.pos-5 {
+  -ms-grid-row: 25;
+  -ms-grid-column: 48;
+  grid-area: 25 / 48;
+}
+
+.pos-6 {
+  -ms-grid-row: 48;
+  -ms-grid-column: 25;
+  grid-area: 48 / 25;
+}
+
+.pos-7 {
+  -ms-grid-row: 12;
+  -ms-grid-column: 35;
+  grid-area: 12 / 35;
+}
+
+.pos-8 {
+  -ms-grid-row: 45;
+  -ms-grid-column: 43;
+  grid-area: 45 / 43;
+}
+
+.ocean {
+  height: 5%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #015871;
+}
+
+.wave {
+  background: url(bg-img/wave.svg) repeat-x;
+  position: absolute;
+  top: -198px;
+  width: 6400px;
+  height: 198px;
+  -webkit-animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+          animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.wave:nth-of-type(2) {
+  top: -175px;
+  -webkit-animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite, swell 7s ease -1.25s infinite;
+          animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite, swell 7s ease -1.25s infinite;
+  opacity: 1;
+}
+
+@-webkit-keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1600px;
+  }
+}
+
+@keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1600px;
+  }
+}
+
+@-webkit-keyframes swell {
+  0%, 100% {
+    -webkit-transform: translate3d(0, -25px, 0);
+            transform: translate3d(0, -25px, 0);
+  }
+  50% {
+    -webkit-transform: translate3d(0, 5px, 0);
+            transform: translate3d(0, 5px, 0);
+  }
+}
+
+@keyframes swell {
+  0%, 100% {
+    -webkit-transform: translate3d(0, -25px, 0);
+            transform: translate3d(0, -25px, 0);
+  }
+  50% {
+    -webkit-transform: translate3d(0, 5px, 0);
+            transform: translate3d(0, 5px, 0);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.main-header-content {
+  width: 100%;
+  min-height: 100%;
+  margin: 35vh 0;
+}
+
+.main-header-content h1, .main-header-content h2 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=App.css.map */

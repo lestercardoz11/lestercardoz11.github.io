@@ -1,0 +1,34 @@
+@import './header';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+      overflow-x: hidden;
+  }
+
+  .App {
+    text-align: center;
+  }
+
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .main-header-content {
+    width: 100%;
+    min-height: 100%;
+    margin: 35vh 0;
+    h1, h2 {
+        justify-content: center;
+        align-items: center;
+    }
+  }
