@@ -1,3 +1,56 @@
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 10vh;
+}
+
+.navbar .sitehead {
+  text-decoration: none;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar ul li {
+  list-style: none;
+  width: 25vh;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-transform: unset;
+}
+
+.navbar .mode-logo {
+  width: 4vh;
+  height: 4vh;
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .navbar ul {
+    display: none;
+  }
+}
+
 .grid {
   pointer-events: none;
   position: absolute;
@@ -5,10 +58,10 @@
   height: 100vmin;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (2%)[25];
-      grid-template-columns: repeat(25, 2%);
-  -ms-grid-rows: (2%)[25];
-      grid-template-rows: repeat(25, 2%);
+  -ms-grid-columns: (2%)[50];
+      grid-template-columns: repeat(50, 2%);
+  -ms-grid-rows: (2%)[50];
+      grid-template-rows: repeat(50, 2%);
 }
 
 .gridItem {
@@ -17,8 +70,8 @@
 
 .gridImg {
   position: relative;
-  width: 5vmin;
-  height: 5vmin;
+  width: 4vmin;
+  height: 4vmin;
   background-size: cover;
 }
 
@@ -115,74 +168,6 @@
   grid-area: 45 / 43;
 }
 
-.ocean {
-  height: 5%;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background: #015871;
-}
-
-.wave {
-  background: url(bg-img/wave.svg) repeat-x;
-  position: absolute;
-  top: -198px;
-  width: 6400px;
-  height: 198px;
-  -webkit-animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
-          animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
-  -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
-}
-
-.wave:nth-of-type(2) {
-  top: -175px;
-  -webkit-animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite, swell 7s ease -1.25s infinite;
-          animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite, swell 7s ease -1.25s infinite;
-  opacity: 1;
-}
-
-@-webkit-keyframes wave {
-  0% {
-    margin-left: 0;
-  }
-  100% {
-    margin-left: -1600px;
-  }
-}
-
-@keyframes wave {
-  0% {
-    margin-left: 0;
-  }
-  100% {
-    margin-left: -1600px;
-  }
-}
-
-@-webkit-keyframes swell {
-  0%, 100% {
-    -webkit-transform: translate3d(0, -25px, 0);
-            transform: translate3d(0, -25px, 0);
-  }
-  50% {
-    -webkit-transform: translate3d(0, 5px, 0);
-            transform: translate3d(0, 5px, 0);
-  }
-}
-
-@keyframes swell {
-  0%, 100% {
-    -webkit-transform: translate3d(0, -25px, 0);
-            transform: translate3d(0, -25px, 0);
-  }
-  50% {
-    -webkit-transform: translate3d(0, 5px, 0);
-            transform: translate3d(0, 5px, 0);
-  }
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -198,8 +183,14 @@ html {
   text-align: center;
 }
 
+.App-logo {
+  width: 10vh;
+  height: 10vh;
+  margin: 0 0 0 10vh;
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: #253245;
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -209,21 +200,33 @@ html {
       -ms-flex-direction: column;
           flex-direction: column;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: whitesmoke;
 }
 
 .main-header-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 100%;
   min-height: 100%;
-  margin: 35vh 0;
-}
-
-.main-header-content h1, .main-header-content h2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  margin: 12vh 0 0 0;
+}
+
+.main-header-content h1, .main-header-content h2 {
+  width: 40vw;
+}
+
+.main-header-content img {
+  width: 300px;
+  height: 300px;
+}
+
+.main-header-content .heading {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  text-align: left;
 }
 /*# sourceMappingURL=App.css.map */

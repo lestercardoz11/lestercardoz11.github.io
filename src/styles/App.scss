@@ -14,21 +14,36 @@
     text-align: center;
   }
 
+  .App-logo {
+    width: 10vh;
+    height: 10vh;
+    margin: 0 0 0 10vh;
+  }
+
   .App-header {
-    background-color: #282c34;
+    background-color: #253245;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     font-size: calc(10px + 2vmin);
-    color: white;
+    color: whitesmoke;
   }
 
   .main-header-content {
+    display: flex;
     width: 100%;
     min-height: 100%;
-    margin: 35vh 0;
+    justify-content: center;
+    margin: 12vh 0 0 0;
     h1, h2 {
-        justify-content: center;
-        align-items: center;
+      width: 40vw;
+    }
+    img {
+      width: 300px;
+      height: 300px;
+    }
+    .heading{
+      align-self: flex-end;
+      text-align: left;
     }
   }
