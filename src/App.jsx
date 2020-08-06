@@ -11,12 +11,12 @@ return (
 <div className="App">
   <header className="App-header">
     <div className="navbar">
-          <a className="sitehead"><img src={logo} className="App-logo" alt="logo" /></a>
+          <a href="/#" className="sitehead"><img src={logo} className="App-logo" alt="logo" /></a>
           <ul>
-              <li><a>Home</a></li>
-              <li><a>About</a></li>
-              <li><a>Contact</a></li>
-              <li><a><img src={mode} className="mode-logo" alt="mode" /></a></li>
+              <li><a href="/#">Home</a></li>
+              <li><a href="/#">About</a></li>
+              <li><a href="/#">Contact</a></li>
+              <li><a href="/#"><img src={mode} className="mode-logo" alt="mode" /></a></li>
           </ul>
       </div>
       <div className="main-header-content">
