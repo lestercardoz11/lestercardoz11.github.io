@@ -1,0 +1,27 @@
+
+.main-headers {
+    h1 {
+        position: relative;
+        font-size: 30px;
+        z-index: 1;
+        overflow: hidden;
+        text-align: center;
+    }
+    h1:before, h1:after {
+        position: absolute;
+        top: 51%;
+        overflow: hidden;
+        width: 25%;
+        height: 1px;
+        content: '\a0';
+        background-color: grey;
+    }
+    h1:before {
+        margin-left: -35%;
+        text-align: right;
+    }
+    h1:after {
+        margin-left: 10%;
+        text-align: left;
+    }
+}

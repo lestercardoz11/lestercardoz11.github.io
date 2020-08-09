@@ -1,69 +1,24 @@
 @import './header';
+@import './functions';
+@import './about';
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  html {
-      overflow-x: hidden;
-      font-family: 'Montserrat', sans-serif;
-  }
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 
-  .App {
-    text-align: center;
-  }
-
-  .App-logo {
-    width: 10vh;
-    height: 10vh;
-    margin: 0 10vh 0 10vh;
-    z-index: 2;
-  }
-
-  .App-header {
-    background-color: #253245;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    font-size: calc(10px + 2vmin);
-    color: whitesmoke;
-    background: linear-gradient(-45deg, #5C79A4, #253245 );
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-  }
-
-  @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-
-  .main-header-content {
-    display: flex;
-    width: 100%;
-    min-height: 100%;
-    max-height: initial;
-    justify-content: center;
-    margin: 12vh 0 0 0;
-    z-index: 2;
-    h1, h2 {
-      width: 40vw;
-    }
-    img {
-      width: 300px;
-      height: 300px;
-      border: none;
-    }
-    .heading{
-      align-self: flex-end;
-      text-align: left;
-    }
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+}
