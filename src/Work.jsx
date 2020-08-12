@@ -10,11 +10,15 @@ return (
     </div>
     <div className="work-contentA">
         <div className="work-content1">
-                <h3>House Management System</h3>
+            <h3>House Management System</h3>
             <p>
                 This system is developed to manage day-to-day activities of a co-operative housing society. A web
-                application using C#, JavaScript, SQL Server, HTML/CSS, Bootstrap, and jQuery, that authenticates users
-                and shows various activities with respect to a co-operative housing society.
+                application that authenticates users and shows various activities with respect to a co-operative housing
+                society.
+                <br />
+                <b>Tools: </b>
+                <br />
+                C#, JavaScript, SQL Server, HTML/CSS, Bootstrap, and jQuery.
             </p>
         </div>
         <div className="work-content2">
@@ -35,9 +39,11 @@ return (
                 <h3>Tribus</h3>
             </div>
             <p>
-                Implemented and deployed a website for an NGO [tribusorg.in] using HTML/CSS, Bootstrap, JavaScript, and
-                Google Cloud Services. Applied GIT to track, test and update pre-existing source code. Managed the
-                website on a weekly basis.
+                Part of a voluntery experience, implemented and deployed a website for a non-profit organization.
+                <br />
+                <b>Tools: </b>
+                <br />
+                HTML/CSS, Bootstrap, JavaScript, and Google Cloud Services
             </p>
         </div>
     </div>
@@ -48,8 +54,12 @@ return (
                 <h3>Music Player</h3>
             </div>
             <p>
-                A web application using react and Spotify API to retrieve artist's information and play their top 10
+                A web application using Spotify API to retrieve artist's information and play their top 10
                 tracks.
+                <br />
+                <b>Tools: </b>
+                <br />
+                React, JavaScript, HTML/CSS, Bootstrap and Spotify API.
             </p>
         </div>
         <div className="work-content2">
@@ -73,7 +83,11 @@ return (
             </div>
             <div className="para-wrapper">
                 <p>
-                    A basic webpage using react, which makes a countdown to the date provided.
+                    A basic webpage which makes a countdown to the date provided.
+                    <br />
+                    <b>Tools: </b>
+                    <br />
+                    React, JavaScript, HTML/CSS, and Bootstrap
                 </p>
             </div>
         </div>

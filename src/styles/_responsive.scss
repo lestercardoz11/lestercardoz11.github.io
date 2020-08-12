@@ -149,4 +149,28 @@
             padding: 0;
         }
     }
+
+    .above-footer {
+        .social-links {
+            .social {
+                width: 10vw;
+                height: 10vw;
+                margin: 2vw; 
+                border-radius: 5vw;
+            }
+        }
+    }
+
+    .footer {
+        min-height: initial;
+        div {
+            p {
+                font-size: 2vw;
+                margin: 2%;
+                a {
+                    font-size: 2vw;
+                }
+            }
+        }
+    }
 }

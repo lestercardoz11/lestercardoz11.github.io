@@ -113,7 +113,7 @@ main {
         justify-content: center;
         align-items: center;
         padding: 0;
-        background-color: #253245;
+        background-color: #527fc4;
         width: 12vw;
         height: 12vw;
         margin: 1px;
@@ -129,7 +129,12 @@ main {
 .work-contentA {
     display: flex;
     padding: 5% 0;
-
+    
+    p {
+        b {
+            color: grey;
+        }
+    }
 
     .work-content1 {
         flex: 5;
@@ -166,6 +171,12 @@ main {
 .work-contentB {
     display: flex;
     padding: 5% 0;
+
+    p {
+        b {
+            color: grey;
+        }
+    }
 
     .work-content3 {
         flex: 4;
