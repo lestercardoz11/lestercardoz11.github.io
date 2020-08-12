@@ -369,7 +369,6 @@ main p {
   background-repeat: no-repeat;
   background-size: 40% 0.3em;
   background-position: 100% 88%;
-  right: 0;
 }
 
 .work-contentA .work-content2 {
@@ -572,13 +571,16 @@ main p {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .work-contentA h3 {
+  .work-contentA .work-content1 h3 {
     font-size: 5vw;
     text-align: center;
+    margin: 1vw auto;
+    background-size: 60% 0.3em;
+    background-position: 50% 88%;
   }
-  .work-contentA p {
+  .work-contentA .work-content1 p {
     font-size: 3.5vw;
-    text-align: center;
+    text-align: justify;
   }
   .work-contentA .work-content2 {
     width: 100%;
@@ -593,13 +595,16 @@ main p {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .work-contentB h3 {
+  .work-contentB .work-content4 h3 {
     font-size: 5vw;
     text-align: center;
+    margin: 1vw auto;
+    background-size: 60% 0.3em;
+    background-position: 50% 88%;
   }
-  .work-contentB p {
+  .work-contentB .work-content4 p {
     font-size: 3.5vw;
-    text-align: center;
+    text-align: justify;
   }
   .work-contentB .work-content3 {
     width: 100%;
