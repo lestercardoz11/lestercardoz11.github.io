@@ -40,7 +40,7 @@ header {
 
       li {
         list-style: none;
-        width: 25vh;
+        width: 15vh;
 
         .nav-link {
           text-decoration: none;
@@ -49,6 +49,27 @@ header {
           color: whitesmoke;
           font-weight: 600;
           font-size: medium;
+          position: relative;
+
+          &:after {
+            position: absolute;
+            transition: .3s;
+            content: '';
+            width: 0;
+            left: 0;
+            bottom: 0;
+            height: 3px;
+            background: #FFAA96;
+          }
+
+          &:hover {
+            cursor: pointer;
+
+            &:after {
+              width: 50%;
+              left: 0;
+            }
+          }
         }
       }
     }
@@ -73,6 +94,7 @@ header {
 
   .img-cover {
     flex: 2;
+
     img {
       height: 50vh;
       filter: drop-shadow(0px 0px 3px grey);
@@ -86,7 +108,9 @@ header {
     width: 40vw;
     height: 100%;
     margin: 10vh 0 0 10vh;
-    h1, h2 {
+
+    h1,
+    h2 {
       font-size: 4vw;
     }
   }

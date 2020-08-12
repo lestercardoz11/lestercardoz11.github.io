@@ -13,8 +13,8 @@ return (
         </div>
         <nav>
             <ul className="nav-links">
-                <li><a className="nav-link" href="/#">Home</a></li>
                 <li><a className="nav-link" href="/#">About</a></li>
+                <li><a className="nav-link" href="/#">Projects</a></li>
                 <li><a className="nav-link" href="/#">Contact</a></li>
             </ul>
         </nav>

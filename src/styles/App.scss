@@ -1,6 +1,7 @@
 @import './header';
+@import './content';
 @import './functions';
-@import './about';
+@import './responsive';
 
 * {
   margin: 0;
@@ -21,8 +22,4 @@ h5,
 h6 {
   font-family: 'Karla', sans-serif;
   font-weight: 700;
-}
-
-p {
-  font-size: 4vh;
 }

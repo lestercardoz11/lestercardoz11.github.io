@@ -1,0 +1,122 @@
+@media screen and (max-width: 1024px) {
+    header {
+        display: flex;
+        nav {
+            flex: 0;
+            .nav-links {
+                display: none;
+            }
+        }
+        .logo-container {
+            justify-content: center;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        display: flex;
+        nav {
+            flex: 0;
+            .nav-links {
+                display: none;
+            }
+        }
+        .logo-container {
+            justify-content: center;
+        }
+    }
+
+    .main-header-content {
+        flex-direction: column-reverse;
+        padding: 5% 10%;
+        .heading {
+            width: 100%;
+            text-align: left;
+            margin: 5vh 0;
+            .head-wrap {
+                height: 35vw;
+            }
+            h1 {
+                font-size: 7vw;
+            }
+        }
+        .img-cover {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    main {
+        min-height: initial;
+        h1 {
+            font-size: 7vw;
+            &:before,
+            &:after {
+                display: none;
+            }
+        }
+
+    }
+
+    .main-content {
+        flex-direction: column;
+        justify-content: center;
+        p {
+            font-size: 3.5vw;
+        }
+        .about-content2 {
+            width: 100%;
+            padding: 0;
+            .card {
+                max-width: 100%;
+                margin: 5% 20%;
+            }
+        }
+    }
+
+    .technical-content {
+        .technical {
+        width: 15vw;
+        height: 15vw;
+        }
+    }
+
+    .work-contentA {
+        flex-direction: column;
+        justify-content: center;
+        
+        h3 {
+            font-size: 5vw;
+            text-align: center;
+        }
+        p {
+            font-size: 3.5vw;
+            text-align: center;
+        }
+        .work-content2 {
+            width: 100%;
+            padding: 0;
+        }
+    }
+
+    .work-contentB {
+        flex-direction: column-reverse;
+        justify-content: center;
+        
+        h3 {
+            font-size: 5vw;
+            text-align: center;
+        }
+        p {
+            font-size: 3.5vw;
+            text-align: center;
+        }
+        .work-content3 {
+            width: 100%;
+            padding: 0;
+        }
+    }
+}
