@@ -4,13 +4,13 @@ import project from './img/project.png';
 
 function Work() {
 return (
-<main>
+<main id="project-section">
     <div>
         <h1>Projects</h1>
     </div>
     <div className="work-contentA">
         <div className="work-content1">
-            <h3>House Management System</h3>
+            <h3>Housing Management System</h3>
             <p>
                 This system is developed to manage day-to-day activities of a co-operative housing society. A web
                 application that authenticates users and shows various activities with respect to a co-operative housing

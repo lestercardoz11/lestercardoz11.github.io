@@ -4,6 +4,7 @@ import Header from './Header';
 import About from './About';
 import Technical from './Technical';
 import Work from './Work';
+import Contact from './Contact';
 import Footer from './Footer';
 
 function App() {
@@ -13,6 +14,7 @@ return (
   <About />
   <Technical />
   <Work />
+  <Contact />
   <Footer />
   </>
 );

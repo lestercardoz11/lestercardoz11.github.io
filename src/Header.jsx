@@ -3,6 +3,7 @@ import './styles/App.css';
 import logo from './logo.svg';
 import avatar from './img/avatar.svg';
 import Typical from 'react-typical';
+import { Link, animateScroll as Scroll } from 'react-scroll';
 
 function Header() {
 return (
@@ -13,9 +14,9 @@ return (
         </div>
         <nav>
             <ul className="nav-links">
-                <li><a className="nav-link" href="/#">About</a></li>
-                <li><a className="nav-link" href="/#">Projects</a></li>
-                <li><a className="nav-link" href="/#">Contact</a></li>
+                <li><Link className="nav-link" to="about-section" spy={true} smooth={true} duration={500}>About</Link></li>
+                <li><Link className="nav-link" to="project-section" spy={true} smooth={true} duration={750}>Projects</Link></li>
+                <li><Link className="nav-link" to="contact-section" spy={true} smooth={true} duration={1000}>Contact</Link></li>
             </ul>
         </nav>
     </header>

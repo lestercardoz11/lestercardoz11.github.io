@@ -7,7 +7,7 @@ import instagram from './img/card/instagram.png';
 
 function About() {
 return (
-<main>
+<main id="about-section">
     <div>
         <h1>About me</h1>
     </div>
