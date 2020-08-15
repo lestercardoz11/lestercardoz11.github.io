@@ -11,7 +11,7 @@ return (
     <div>
         <h1>Projects</h1>
     </div>
-    <div className="work-contentA" data-aos="fade-left">
+    <div className="work-contentA" data-aos="zoom-in-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
         <div className="work-content1">
             <h3>Housing Management System</h3>
             <p>
@@ -23,8 +23,9 @@ return (
                 <br />
                 C#, JavaScript, SQL Server, HTML/CSS, Bootstrap, and jQuery.
             </p>
-            <div className="button-wrapper">
-                <button className="code-button"><span>View Code</span></button>
+            <div class="button-wrapper">
+                <div class="button-effect"></div>
+                <a href="https://github.com/lestercardoz11/housing-management-system"> View Code </a>
             </div>
         </div>
         <div className="work-content2">
@@ -34,7 +35,7 @@ return (
         </div>
     </div>
 
-    <div className="work-contentB" data-aos="fade-up-right">
+    <div className="work-contentB" data-aos="zoom-in-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
         <div className="work-content3">
             <div className="project-wrapper">
                 <img src={project} alt="" />
@@ -51,10 +52,14 @@ return (
                 <br />
                 HTML/CSS, Bootstrap, JavaScript, and Google Cloud Services
             </p>
+            <div class="button-wrapper">
+                <div class="button-effect"></div>
+                <a href="https://github.com/lestercardoz11/tribus-organisation"> View Code </a>
+            </div>
         </div>
     </div>
 
-    <div className="work-contentA" data-aos="fade-left">
+    <div className="work-contentA" data-aos="zoom-in-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
         <div className="work-content1">
             <div className="header-wrapper">
                 <h3>Music Player</h3>
@@ -67,6 +72,10 @@ return (
                 <br />
                 React, JavaScript, HTML/CSS, Bootstrap and Spotify API.
             </p>
+            <div class="button-wrapper">
+                <div class="button-effect"></div>
+                <a href="https://github.com/lestercardoz11/music-player"> View Code </a>
+            </div>
         </div>
         <div className="work-content2">
             <div className="project-wrapper">
@@ -75,7 +84,7 @@ return (
         </div>
     </div>
 
-    <div className="work-contentB" data-aos="fade-up-right">
+    <div className="work-contentB" data-aos="zoom-in-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
         <div className="work-content3">
             <div className="project-wrapper">
                 <img src={project} alt="" />
@@ -95,6 +104,10 @@ return (
                     <br />
                     React, JavaScript, HTML/CSS, and Bootstrap
                 </p>
+                <div class="button-wrapper">
+                <div class="button-effect"></div>
+                <a href="https://github.com/lestercardoz11/count-down"> View Code </a>
+            </div>
             </div>
         </div>
     </div>
