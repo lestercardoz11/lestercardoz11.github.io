@@ -3,7 +3,7 @@ import './styles/App.css';
 import logo from './logo.svg';
 import avatar from './img/avatar.svg';
 import Typical from 'react-typical';
-import { Link, animateScroll as Scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 function Header() {
 return (

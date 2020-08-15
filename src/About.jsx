@@ -4,7 +4,6 @@ import linkedin from './img/card/linkedin.png';
 import github from './img/card/github.png';
 import instagram from './img/card/instagram.png';
 
-
 function About() {
 return (
 <main id="about-section">

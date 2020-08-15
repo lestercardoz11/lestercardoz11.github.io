@@ -1,5 +1,5 @@
 footer {
-    background-color: rgb(82, 127, 196 );
+    background-color: rgb(82, 127, 196);
     padding: 2.5% 5% 0;
 }
 
@@ -79,6 +79,27 @@ hr {
                     color: #253245;
                 }
             }
+        }
+    }
+}
+
+.scroll-up {
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+    .arrow-up {
+        cursor: pointer;
+        height: 100%;
+        border-radius: 50%;
+        img {
+            height: 100%;
+            transition: transform 0.25s;
+        }
+        &:hover > img {
+            transform: translate(0, -20%);
+            transition: 0.5s ease;
         }
     }
 }

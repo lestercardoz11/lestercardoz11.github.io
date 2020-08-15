@@ -1,14 +1,17 @@
 import React from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './styles/App.css';
 import project from './img/project.png';
 
 function Work() {
+    AOS.init();
 return (
 <main id="project-section">
     <div>
         <h1>Projects</h1>
     </div>
-    <div className="work-contentA">
+    <div className="work-contentA" data-aos="fade-left">
         <div className="work-content1">
             <h3>Housing Management System</h3>
             <p>
@@ -20,6 +23,9 @@ return (
                 <br />
                 C#, JavaScript, SQL Server, HTML/CSS, Bootstrap, and jQuery.
             </p>
+            <div className="button-wrapper">
+                <button className="code-button"><span>View Code</span></button>
+            </div>
         </div>
         <div className="work-content2">
             <div className="project-wrapper">
@@ -28,7 +34,7 @@ return (
         </div>
     </div>
 
-    <div className="work-contentB">
+    <div className="work-contentB" data-aos="fade-up-right">
         <div className="work-content3">
             <div className="project-wrapper">
                 <img src={project} alt="" />
@@ -48,7 +54,7 @@ return (
         </div>
     </div>
 
-    <div className="work-contentA">
+    <div className="work-contentA" data-aos="fade-left">
         <div className="work-content1">
             <div className="header-wrapper">
                 <h3>Music Player</h3>
@@ -69,7 +75,7 @@ return (
         </div>
     </div>
 
-    <div className="work-contentB">
+    <div className="work-contentB" data-aos="fade-up-right">
         <div className="work-content3">
             <div className="project-wrapper">
                 <img src={project} alt="" />
