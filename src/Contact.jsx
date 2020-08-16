@@ -8,7 +8,20 @@ return (
         <h1>Contact</h1>
     </div>
     <div className="contact-content">
-        <h2>I can help.</h2>
+        <div>
+            <p>
+            You can see some of my work on GitHub.
+            <br /><br />
+            If you love my work and want to get in touch, you can find me on LinkedIn.
+            <br /><br />
+            You can also reach me at lestercardoz11@gmail.com.
+            <br /><br />
+            </p>
+            <div className="button-wrapper">
+                <div className="button-effect"></div>
+                <a href="mailto:lestercardoz11@gmail.com"> Mail me </a>
+            </div>
+        </div>
     </div>
 </main>
 );

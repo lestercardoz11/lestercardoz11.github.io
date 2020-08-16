@@ -283,4 +283,9 @@ main {
     display: flex;
     padding: 5% 0;
     justify-content: center;
+    div {
+        margin: auto;
+        width: 50%;
+        text-align: center;
+    }
 }

@@ -588,6 +588,12 @@ main p {
           justify-content: center;
 }
 
+.contact-content div {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
 footer {
   background-color: #527fc4;
   padding: 2.5% 5% 0;

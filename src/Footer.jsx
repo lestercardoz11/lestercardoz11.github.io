@@ -26,7 +26,7 @@ return (
     <hr />
     <div className="footer">
         <div className="left">
-            <p>© 2020 Lester Cardoz | All rights reserved.</p>
+            <p>© 2020 <a href="https://www.linkedin.com/in/lestercardoz11/">Lester Cardoz</a> | All rights reserved.</p>
         </div>
         <div className="right">
             <p>Icons by <a href="https://icons8.com">Icons8</a></p>

@@ -1,5 +1,7 @@
 import React from 'react';
 import './styles/App.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import bootstrap from './img/technologies/bootstrap.svg';
 import cplusplus from './img/technologies/cplusplus.svg';
 import csharp from './img/technologies/csharp.svg';
@@ -22,90 +24,91 @@ import vscode from './img/technologies/vscode.svg';
 import wordpress from './img/technologies/wordpress.svg';
 
 function Technical() {
+    AOS.init();
 return (
 <main>
     <div>
         <h1>Technologies I've worked with</h1>
     </div>
     <div className="technical-content">
-        <div className="technical">
-            <img src={javascript} alt=""/>
+        <div className="technical" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <img src={javascript} alt="javascript"/>
             <p>JavaScript</p>
         </div>
-        <div className="technical">
-            <img src={csharp} alt=""/>
+        <div className="technical" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <img src={csharp} alt="csharp"/>
             <p>C#</p>
         </div>
-        <div className="technical">
-            <img src={php} alt=""/>
+        <div className="technical" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <img src={php} alt="php"/>
             <p>PHP</p>
         </div>
-        <div className="technical">
-            <img src={jquery} alt=""/>
+        <div className="technical" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <img src={jquery} alt="jquery"/>
             <p>jQuery</p>
         </div>
-        <div className="technical">
-            <img src={react} alt=""/>
+        <div className="technical" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <img src={react} alt="react"/>
             <p>React</p>
         </div>
-        <div className="technical">
-            <img src={html5} alt=""/>
+        <div className="technical" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <img src={html5} alt="html5"/>
             <p>HTML 5</p>
         </div>
-        <div className="technical">
-            <img src={css3} alt=""/>
+        <div className="technical" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <img src={css3} alt="css3"/>
             <p>CSS 3</p>
         </div>
-        <div className="technical">
-            <img src={sass} alt=""/>
+        <div className="technical" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <img src={sass} alt="sass"/>
             <p>SASS</p>
         </div>
-        <div className="technical">
-            <img src={bootstrap} alt=""/>
+        <div className="technical" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <img src={bootstrap} alt="bootstrap"/>
             <p>Bootstrap</p>
         </div>
-        <div className="technical">
-            <img src={github} alt=""/>
+        <div className="technical" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <img src={github} alt="github"/>
             <p>GitHub</p>
         </div>
-        <div className="technical">
-            <img src={python} alt=""/>
+        <div className="technical" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <img src={python} alt="python"/>
             <p>Python</p>
         </div>
-        <div className="technical">
-            <img src={cplusplus} alt=""/>
+        <div className="technical" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <img src={cplusplus} alt="cplusplus"/>
             <p>C++</p>
         </div>
-        <div className="technical">
-            <img src={java} alt=""/>
+        <div className="technical" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <img src={java} alt="java"/>
             <p>Java</p>
         </div>
-        <div className="technical">
-            <img src={mysql} alt=""/>
+        <div className="technical" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <img src={mysql} alt="mysql"/>
             <p>MySQL</p>
         </div>
-        <div className="technical">
-            <img src={sqlserver} alt=""/>
+        <div className="technical" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <img src={sqlserver} alt="sqlserver"/>
             <p>Microsoft SQL Server</p>
         </div>
-        <div className="technical">
-            <img src={vscode} alt=""/>
+        <div className="technical" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <img src={vscode} alt="vscode"/>
             <p>VS Code</p>
         </div>
-        <div className="technical">
-            <img src={heroku} alt=""/>
+        <div className="technical" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <img src={heroku} alt="heroku"/>
             <p>Heroku</p>
         </div>
-        <div className="technical">
-            <img src={npm} alt=""/>
+        <div className="technical" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <img src={npm} alt="npm"/>
             <p>NPM</p>
         </div>
-        <div className="technical">
-            <img src={wordpress} alt=""/>
+        <div className="technical" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <img src={wordpress} alt="wordpress"/>
             <p>WordPress</p>
         </div>
-        <div className="technical">
-            <img src={matlab} alt=""/>
+        <div className="technical" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <img src={matlab} alt="matlab"/>
             <p>MATLAB</p>
         </div>
     </div>

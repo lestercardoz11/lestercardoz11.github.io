@@ -6,11 +6,16 @@ import Typical from 'react-typical';
 import { Link } from 'react-scroll';
 
 function Header() {
+
+    function refreshPage() {
+        window.location.reload(false);
+      }
+
 return (
 <div className="Header">
     <header>
         <div className="logo-container">
-            <a href="/#" className="App-logo"><img src={logo} alt="logo" /></a>
+            <a href="/#" onClick={refreshPage} className="App-logo"><img src={logo} alt="logo" /></a>
         </div>
         <nav>
             <ul className="nav-links">
