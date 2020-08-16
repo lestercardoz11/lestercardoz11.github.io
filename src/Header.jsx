@@ -37,8 +37,8 @@ return (
                         I'm Lester Cardoz.
                         <br />
                         I'm a {' '}
-                        <Typical loop={Infinity} wrapper="b" steps={[ 'Web Developer.' , 2000, 'Technology Enthusiast.'
-                            , 2000, 'Footballer.' , 2000 ]} />
+                        <Typical loop={Infinity} wrapper="b" steps={[ 'Web Developer.' , 2500, 'Technology Enthusiast.'
+                            , 2500, 'Footballer.' , 2500 ]} />
                     </h1>
                 </div>
             </div>

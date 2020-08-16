@@ -1,16 +1,16 @@
 footer {
-    background-color: rgb(82, 127, 196);
+    background-color: $colormain;
     padding: 2.5% 5% 0;
 }
 
 hr {
-    background-color: white;
+    background-color: $colorfont1;
 }
 
 .above-footer {
     width: 100%;
     min-height: 10vh;
-    color: white;
+    color: $colorfont1;
 
     .social-links {
         display: flex;
@@ -21,10 +21,10 @@ hr {
 
         .social {
             padding: 0;
-            border: 2px solid white;
+            border: 2px solid $colorfont1;
             border-radius: 2vw;
-            width: 4vw;
-            height: 4vw;
+            width: 3vw;
+            height: 3vw;
             margin: 1vw;
 
             img {
@@ -45,7 +45,7 @@ hr {
     bottom: 0;
     width: 100%;
     min-height: 10vh;
-    color: white;
+    color: $colorfont1;
     align-items: center;
     display: flex;
 
@@ -67,8 +67,8 @@ hr {
                 text-decoration: none;
                 font-weight: 600;
                 padding: 1%;
-                color: white;
-                background-image: linear-gradient(120deg, silver 0%, white 100%);
+                color: $colorfont1;
+                background-image: linear-gradient(120deg, $colorassets2 0%, $colorfont1 100%);
                 background-repeat: no-repeat;
                 background-size: 100% 0.3em;
                 background-position: 0 88%;
@@ -76,7 +76,7 @@ hr {
 
                 &:hover {
                     background-size: 100% 88%;
-                    color: #253245;
+                    color: $colormain;
                 }
             }
         }

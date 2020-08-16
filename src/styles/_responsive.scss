@@ -94,6 +94,9 @@
     }
 
     .technical-content {
+        p {
+            font-size: 1.5vw;
+        }
         .technical {
             width: 15vw;
             height: 15vw;
@@ -158,6 +161,17 @@
                 margin: 2vw; 
                 border-radius: 5vw;
             }
+        }
+    }
+
+    .contact-content {
+        p {
+            font-size: 3.5vw;
+        }
+        div {
+            width: 90%;
+            margin: auto;
+            text-align: center;
         }
     }
 

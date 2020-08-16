@@ -18,16 +18,18 @@ return (
         <div className="work-content1">
             <h3>Housing Management System</h3>
             <p>
-                As part of my internship, I developed a web application to manage day to day activities of a co-op
-                housing society. This application authenticates users and shows various activities with respect to a co-op housing society.
+                A web application developed to manage day to day activities of a co-operative
+                housing society. This application authenticates users and shows various activities with respect to a
+                co-operative housing society.
                 <br /><br />
                 <b>Tools: </b>
                 C#, JavaScript, SQL Server, HTML/CSS, Bootstrap, and jQuery.
             </p>
-            <div className="button-wrapper">
-                <div className="button-effect"></div>
-                <a href="https://github.com/lestercardoz11/housing-management-system"> View Code </a>
+            <div>
+                <a href="https://github.com/lestercardoz11/housing-management-system"
+                    className="btn btn-sm animated-button button-effect"> View Code </a>
             </div>
+            <br />
         </div>
         <div className="work-content2">
             <div className="project-wrapper">
@@ -47,15 +49,15 @@ return (
                 <h3>Tribus</h3>
             </div>
             <p>
-                As part of a voluntery experience, I've implemented and deployed a website for a non-profit organization. The web application mainly focuses on showcasing the details of NGO, show some pictures of the work done by the NGO and also a donation link to the organisation. Integration of the google forms API also was done in the website.
+                A website built and deployed for an NGO showcasing work that they have accomplished,
+                details of the NGO, a donation link to the organisation and an inclusion of google forms API.
                 <br /><br />
                 <b>Tools: </b>
                 HTML/CSS, Bootstrap, JavaScript, and Google Cloud Services
             </p>
-            <div className="button-wrapper">
-                <div className="button-effect"></div>
-                <a href="https://github.com/lestercardoz11/tribus-organisation"> View Code </a>
-            </div>
+                <a href="https://github.com/lestercardoz11/tribus-organisation"
+                    className="btn btn-sm animated-button button-effect"> View Code </a>
+            <br />
         </div>
     </div>
 
@@ -71,10 +73,9 @@ return (
                 <b>Tools: </b>
                 React, JavaScript, HTML/CSS, Bootstrap and Spotify API.
             </p>
-            <div className="button-wrapper">
-                <div className="button-effect"></div>
-                <a href="https://github.com/lestercardoz11/music-player"> View Code </a>
-            </div>
+                <a href="https://github.com/lestercardoz11/music-player"
+                    className="btn btn-sm animated-button button-effect"> View Code </a>
+            <br />
         </div>
         <div className="work-content2">
             <div className="project-wrapper">
@@ -102,10 +103,9 @@ return (
                     <b>Tools: </b>
                     React, JavaScript, HTML/CSS, and Bootstrap
                 </p>
-                <div className="button-wrapper">
-                    <div className="button-effect"></div>
-                    <a href="https://github.com/lestercardoz11/count-down"> View Code </a>
-                </div>
+                    <a href="https://github.com/lestercardoz11/count-down"
+                        className="btn btn-sm animated-button button-effect"> View Code </a>
+                <br />
             </div>
         </div>
     </div>

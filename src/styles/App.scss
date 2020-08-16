@@ -1,3 +1,10 @@
+$colormain: #253245;
+$colorfont1: #f5f5f5;
+$colorfont2: #253245;
+$colorassets1: #FFCB36;
+$colorassets2: #FFAA96;
+
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
 @import './header';
 @import './content';
 @import './footer';
@@ -28,3 +35,11 @@ h6 {
 b {
   font-weight: 600;
 }
+
+button {
+  font-family: 'Karla', sans-serif;
+  &:focus {
+    outline:0;
+  }
+}
+

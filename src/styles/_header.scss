@@ -2,15 +2,14 @@
 
 .Header {
   text-align: center;
-  background-color: #253245;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  font-size: calc(10px + 2vmin);
-  color: whitesmoke;
-  background: linear-gradient(-45deg, #527fc4, #253245);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+  color: $colorfont1;
+  background-color: $colormain;
+  background-image: url(./bg-img/bg-img.svg);
+  background-position: center left;
+  background-size: cover;
 }
 
 header {
@@ -46,7 +45,7 @@ header {
           text-decoration: none;
           letter-spacing: 2px;
           text-transform: uppercase;
-          color: whitesmoke;
+          color: $colorfont1;
           font-weight: 600;
           font-size: medium;
           position: relative;
@@ -59,7 +58,7 @@ header {
             left: 0;
             bottom: 0;
             height: 3px;
-            background: #FFAA96;
+            background: $colorassets1;
           }
 
           &:hover {
@@ -89,29 +88,31 @@ header {
 
 .main-header-content {
   display: flex;
-  padding: 5% 15%;
+  padding: 5% 0 5% 15%;
   min-height: 70vh;
+  align-items: center;
 
   .img-cover {
     flex: 2;
 
     img {
-      height: 50vh;
-      filter: drop-shadow(0px 0px 3px grey);
-      animation: drop 1.5s ease 3000ms;
+      max-height: 40vh;
+      width: 25vw;
+      filter: drop-shadow(0px 0px 3px $colorfont2);
+      animation: drop 1.5s ease 2000ms;
     }
   }
 
   .heading {
-    flex: 5;
+    flex: 7;
     text-align: left;
     width: 40vw;
     height: 100%;
-    margin: 25vh 0 0 10vh;
+    margin: 15vh 0 0 5vh;
 
     h1,
     h2 {
-      font-size: 6vh;
+      font-size: 5.5vh;
     }
   }
 }
