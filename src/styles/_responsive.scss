@@ -4,6 +4,9 @@
 
         nav {
             flex: 0;
+            display: none;
+            visibility: hidden;
+            background-color: transparent;
 
             .nav-links {
                 display: none;
