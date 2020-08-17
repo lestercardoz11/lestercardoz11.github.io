@@ -26,6 +26,10 @@
 
         nav {
             flex: 0;
+            position: absolute;
+            height: 0;
+            overflow: hidden;
+            display: none;
 
             .nav-links {
                 display: none;
