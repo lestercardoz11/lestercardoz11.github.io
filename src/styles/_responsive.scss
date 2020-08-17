@@ -4,9 +4,10 @@
 
         nav {
             flex: 0;
+            position: absolute;
+            height: 0;
+            overflow: hidden;
             display: none;
-            visibility: hidden;
-            background-color: transparent;
 
             .nav-links {
                 display: none;
