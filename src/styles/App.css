@@ -782,11 +782,15 @@ hr {
   }
   header nav {
     display: none !important;
-    background-color: transparent;
-    z-index: -1;
+    visibility: hidden;
   }
   header nav .nav-links {
     display: none !important;
+    visibility: hidden;
+  }
+  header nav .nav-links .nav-link {
+    display: none !important;
+    visibility: hidden;
   }
   header .logo-container {
     -webkit-box-pack: center;
@@ -809,10 +813,15 @@ hr {
   }
   header nav {
     display: none !important;
-    z-index: -1;
+    visibility: hidden;
   }
   header nav .nav-links {
     display: none !important;
+    visibility: hidden;
+  }
+  header nav .nav-links .nav-link {
+    display: none !important;
+    visibility: hidden;
   }
   header .logo-container {
     -webkit-box-pack: center;

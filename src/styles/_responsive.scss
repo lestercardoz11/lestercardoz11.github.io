@@ -14,11 +14,16 @@
 
         nav {
             display: none !important;
-            background-color: transparent;
-            z-index: -1;
+            visibility: hidden;
 
             .nav-links {
                 display: none !important;
+                visibility: hidden;
+
+                .nav-link {
+                    display: none !important;
+                    visibility: hidden;
+                }
             }
         }
 
@@ -44,10 +49,16 @@
 
         nav {
             display: none !important;
-            z-index: -1;
+            visibility: hidden;
 
             .nav-links {
                 display: none !important;
+                visibility: hidden;
+
+                .nav-link {
+                    display: none !important;
+                    visibility: hidden;
+                }
             }
         }
 
