@@ -3,6 +3,12 @@
         overflow-x: hidden;
     }
 
+    .hidden-screen {
+        display: none;
+        visibility: hidden;
+        background-color: transparent;
+      }
+
     .Header {
         width: 100%;
         overflow: hidden;
@@ -36,6 +42,12 @@
 @media screen and (max-width: 768px) {
     html,body {
         overflow-x: hidden;
+    }
+
+    .hidden-screen {
+        display: none;
+        visibility: hidden;
+        background-color: transparent;
     }
 
     .Header {

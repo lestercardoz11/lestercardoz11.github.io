@@ -11,7 +11,7 @@ import { Cube } from 'react-preloaders';
 function App() {
 return (
   <>
-  <Cube color={'#FFAA96'} background="#253245" time={ 1800 } animation="slide"/>
+  <Cube className="hidden-screen" color={'#FFAA96'} background="#253245" time={ 1800 } animation="slide"/>
   <Header />
   <About />
   <Technical />
