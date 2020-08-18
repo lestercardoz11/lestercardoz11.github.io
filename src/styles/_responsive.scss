@@ -1,9 +1,15 @@
 @media screen and (max-width: 1024px) {
+    .Header {
+        width: 100%;
+        overflow: hidden;
+    }
+
     header {
         display: block;
 
         nav {
             display: none;
+            background-color: transparent;
             z-index: -1;
 
             .nav-links {
@@ -18,11 +24,18 @@
 }
 
 @media screen and (max-width: 768px) {
+    .Header {
+        width: 100%;
+        overflow: hidden;
+    }
+
     header {
         display: block;
+        background-color: transparent;
 
         nav {
             display: none;
+            background-color: transparent;
             z-index: -1;
 
             .nav-links {

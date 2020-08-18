@@ -809,11 +809,16 @@ hr {
 }
 
 @media screen and (max-width: 1024px) {
+  .Header {
+    width: 100%;
+    overflow: hidden;
+  }
   header {
     display: block;
   }
   header nav {
     display: none;
+    background-color: transparent;
     z-index: -1;
   }
   header nav .nav-links {
@@ -827,11 +832,17 @@ hr {
 }
 
 @media screen and (max-width: 768px) {
+  .Header {
+    width: 100%;
+    overflow: hidden;
+  }
   header {
     display: block;
+    background-color: transparent;
   }
   header nav {
     display: none;
+    background-color: transparent;
     z-index: -1;
   }
   header nav .nav-links {
