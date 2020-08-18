@@ -778,6 +778,7 @@ hr {
   }
   header {
     display: block;
+    min-height: initial;
   }
   header nav {
     display: none !important;
@@ -804,6 +805,7 @@ hr {
   }
   header {
     display: block;
+    min-height: initial;
   }
   header nav {
     display: none !important;

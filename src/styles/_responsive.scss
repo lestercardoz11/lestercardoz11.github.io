@@ -2,7 +2,7 @@
     html,body {
         overflow-x: hidden;
     }
-    
+
     .Header {
         width: 100%;
         overflow: hidden;
@@ -10,6 +10,7 @@
 
     header {
         display: block;
+        min-height: initial;
 
         nav {
             display: none !important;
@@ -39,6 +40,7 @@
 
     header {
         display: block;
+        min-height: initial;
 
         nav {
             display: none !important;
