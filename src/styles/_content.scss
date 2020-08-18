@@ -188,6 +188,7 @@ main {
         .project-wrapper {
             width: 100%;
             height: 100%;
+
             img {
                 width: 100%;
                 filter: drop-shadow(0px 0px 3px $colorfont2);
@@ -240,45 +241,6 @@ main {
     }
 }
 
-
-.button-wrapper {
-    width: 10vw;
-    color: $colormain;
-    font-weight: 500;
-    height: 6vh;
-    line-height: 6vh;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    border: 2px solid $colormain;
-    border-radius: 0;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-    transition: all .5s ease;
-    position: relative;
-    margin: 10px;
-    z-index: 2;
-
-    .button-effect {
-        width: 100%;
-        height: 100%;
-        left: -100%;
-        background: $colormain;
-        position: absolute;
-        transition: all .5s ease;
-        z-index: 1;
-    }
-
-    &:hover .button-effect {
-        left: 0;
-    }
-
-    &:hover {
-        color: $colorfont1;
-    }
-}
-
 .contact-content {
     display: flex;
     padding: 5% 0;
@@ -315,10 +277,10 @@ a.animated-button.button-effect {
     font-size: 1.5vh;
     letter-spacing: 1px;
     text-transform: uppercase;
-	cursor: pointer;
-	display: block;
-	position: relative;
-	border: 2px solid $colormain;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    border: 2px solid $colormain;
     transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
     border-radius: 0px;
     overflow: hidden;
@@ -326,7 +288,7 @@ a.animated-button.button-effect {
     &:hover {
         color: $colorfont1 !important;
         background-color: transparent;
-    
+
     }
 
     &:hover:before {
@@ -349,5 +311,3 @@ a.animated-button.button-effect {
         transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
     }
 }
-
-

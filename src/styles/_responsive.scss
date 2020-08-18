@@ -1,4 +1,8 @@
 @media screen and (max-width: 1024px) {
+    html,body {
+        overflow-x: hidden;
+    }
+    
     .Header {
         width: 100%;
         overflow: hidden;
@@ -8,12 +12,12 @@
         display: block;
 
         nav {
-            display: none;
+            display: none !important;
             background-color: transparent;
             z-index: -1;
 
             .nav-links {
-                display: none;
+                display: none !important;
             }
         }
 
@@ -24,6 +28,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    html,body {
+        overflow-x: hidden;
+    }
+
     .Header {
         width: 100%;
         overflow: hidden;
@@ -31,15 +39,13 @@
 
     header {
         display: block;
-        background-color: transparent;
 
         nav {
-            display: none;
-            background-color: transparent;
+            display: none !important;
             z-index: -1;
 
             .nav-links {
-                display: none;
+                display: none !important;
             }
         }
 
@@ -109,6 +115,7 @@
     }
 
     .technical-content {
+        width: 100%;
         p {
             font-size: 1.5vw;
         }
