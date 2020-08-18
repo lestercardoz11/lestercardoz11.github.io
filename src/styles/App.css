@@ -772,11 +772,6 @@ hr {
   html, body {
     overflow-x: hidden;
   }
-  .hidden-screen {
-    display: none;
-    visibility: hidden;
-    background-color: transparent;
-  }
   .Header {
     width: 100%;
     overflow: hidden;
@@ -786,14 +781,17 @@ hr {
     min-height: initial;
   }
   header nav {
+    position: relative;
     display: none !important;
     visibility: hidden;
   }
   header nav .nav-links {
+    position: absolute;
     display: none !important;
     visibility: hidden;
   }
   header nav .nav-links .nav-link {
+    position: relative;
     display: none !important;
     visibility: hidden;
   }
@@ -808,11 +806,6 @@ hr {
   html, body {
     overflow-x: hidden;
   }
-  .hidden-screen {
-    display: none;
-    visibility: hidden;
-    background-color: transparent;
-  }
   .Header {
     width: 100%;
     overflow: hidden;
@@ -822,14 +815,17 @@ hr {
     min-height: initial;
   }
   header nav {
+    position: relative;
     display: none !important;
     visibility: hidden;
   }
   header nav .nav-links {
+    position: absolute;
     display: none !important;
     visibility: hidden;
   }
   header nav .nav-links .nav-link {
+    position: relative;
     display: none !important;
     visibility: hidden;
   }
