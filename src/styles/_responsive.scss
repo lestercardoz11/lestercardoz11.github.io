@@ -1,13 +1,10 @@
 @media screen and (max-width: 1024px) {
     header {
-        display: flex;
+        display: block;
 
         nav {
-            flex: 0;
-            position: absolute;
-            height: 0;
-            overflow: hidden;
             display: none;
+            z-index: -1;
 
             .nav-links {
                 display: none;
@@ -22,14 +19,11 @@
 
 @media screen and (max-width: 768px) {
     header {
-        display: flex;
+        display: block;
 
         nav {
-            flex: 0;
-            position: absolute;
-            height: 0;
-            overflow: hidden;
             display: none;
+            z-index: -1;
 
             .nav-links {
                 display: none;

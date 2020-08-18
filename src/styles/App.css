@@ -810,14 +810,11 @@ hr {
 
 @media screen and (max-width: 1024px) {
   header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
   }
   header nav {
-    -webkit-box-flex: 0;
-        -ms-flex: 0;
-            flex: 0;
+    display: none;
+    z-index: -1;
   }
   header nav .nav-links {
     display: none;
@@ -831,14 +828,11 @@ hr {
 
 @media screen and (max-width: 768px) {
   header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
   }
   header nav {
-    -webkit-box-flex: 0;
-        -ms-flex: 0;
-            flex: 0;
+    display: none;
+    z-index: -1;
   }
   header nav .nav-links {
     display: none;
