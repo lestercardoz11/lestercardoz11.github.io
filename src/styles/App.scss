@@ -1,16 +1,16 @@
 $colormain: #253245;
 $colorfont1: #f5f5f5;
 $colorfont2: #253245;
-$colorassets1: #FFCB36;
-$colorassets2: #FFAA96;
+$colorassets1: #ffcb36;
+$colorassets2: #ffaa96;
 $colorassets3: #ffa99680;
 
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
-@import './header';
-@import './content';
-@import './footer';
-@import './functions';
-@import './responsive';
+@import "./header";
+@import "./content";
+@import "./footer";
+@import "./functions";
+@import "./responsive";
 
 * {
   margin: 0;
@@ -20,7 +20,7 @@ $colorassets3: #ffa99680;
 
 html,
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 h1,
@@ -29,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
   font-weight: 700;
 }
 
@@ -38,9 +38,8 @@ b {
 }
 
 button {
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
   &:focus {
-    outline:0;
+    outline: 0;
   }
 }
-

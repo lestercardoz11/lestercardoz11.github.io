@@ -1,4 +1,4 @@
-@import './functions';
+@import "./functions";
 
 .Header {
   text-align: center;
@@ -52,8 +52,8 @@ header {
 
           &:after {
             position: absolute;
-            transition: .3s;
-            content: '';
+            transition: 0.3s;
+            content: "";
             width: 0;
             left: 0;
             bottom: 0;
