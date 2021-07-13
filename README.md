@@ -1,33 +1,58 @@
-# Portfolio
+<h1 align="center">
+  Lester Cardoz - v1
+</h1>
+<p align="center">
+  My latest portfolio:
+  <a href="https://github.com/lestercardoz11/lestercardoz.tech" target="_blank">v2</a>
+</p>
+<p align="center">
+  <img alt="react" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img alt="sass" src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" />
+  <img alt="javascript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+  <img alt="npm" src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" />
+</p>
 
-A website to showcase skills and personal information.
+A website to showcase skills and personal information. This repository contains my personal portfolio that was created with Next.js and Chakra UI.
 
-## Available Scripts
+## Installation & Set Up
 
-In the project directory, you can run:
+1. Clone repository
 
-### `npm start`
+   ```sh
+   git clone https://github.com/lestercardoz11/lestercardoz11.github.io.git
+   ```
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2. Change the current working directory
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+   ```sh
+   cd lestercardoz11.github.io
+   ```
 
-### `npm test`
+3. Install dependencies
 
-Launches the test runner in the interactive watch mode.
+   ```sh
+   npm install
+   ```
+    
+4. Start the development server
 
-### `npm run build`
+   ```sh
+   npm start
+   ```
 
-Builds the app for production to the `build` folder.
+5. Build the application 
 
-Your app is ready to be deployed!
+   ```sh
+   npm run build
+   ```
 
-### `npm run eject`
+6. Deploy the application 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+   ```sh
+   npm run deploy
+   ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Built Using
 
-### `npm run deploy`
+- [React](https://reactjs.org/)
+- [SASS](https://sass-lang.com/)
